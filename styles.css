@@ -1,3 +1,21 @@
+/* 
+I split my CSS style sheet into 5 seperate sections 
+
+
+The first section:
+    General styles that are on every page such as headings, pararpahs, etc.
+
+The second section:
+    CSS that is mostly Ipad RWD
+
+The third section:
+    CSS that is mostly Iphone RWD
+
+*/
+
+
+/* Section 1 */
+
 body {
     font-family: Georgia, Times, serif;
     font-size: 15px;
@@ -159,12 +177,12 @@ p.right_photo{
 
 .addy{
     float: right;
-    /* font-size: 500px; */
 }
 
 
 
-
+/* Section 2 */
+/* This section is for the resize to Ipad */
 @media screen and (max-width: 1200px){
     #front_photo{
         width: 100%;
@@ -298,6 +316,9 @@ p.right_photo{
 
 }    
 
+
+/* Section 3 */
+/* This section is the resize to the Iphone */
 @media screen and (max-width: 800px){
 
     ul {

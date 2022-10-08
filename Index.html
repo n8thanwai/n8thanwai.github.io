@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Website for my DSP Warehouse Inc.">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Nathan Wai">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DSP Warehouse Inc.</title> 
+        <link href="styles.css" type="text/css" rel="stylesheet" /> 
+    </head>
+
+    <header>
+
+        <h1>DSP Warehouse, Inc.</h1>
+
+    </header>
+
+
+    <body>
+
+        <nav class="sticky">
+            
+            <ul>
+                <img src="images/dsp_logo.png" alt="logo picture" id="logo_photo"/>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="location.html">Visit Us</a></li>
+                
+            </ul>
+        </nav>
+
+        <!-- <div class="container"> -->
+            <img src="images/dsp_front.png" alt="large picture" id="front_photo"/>
+            <!-- <div id="photo_text">Fulfilling Every Expectation</div> -->
+        <!-- </div> -->
+
+        <form action="http://www.example.com/review.php" method="get" id="form_fill">
+            <h2>Contact Us Today for A FREE quote</h2>
+            <fieldset>
+                <legend>Your Details:</legend><br /><br />
+                <label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br /><br />
+                <label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br /><br />
+                <label>Phone: <input type="phone" name="phone" size="30" maxlength="20"></label><br /><br /><br />
+                <label for="comments">How we can help with your Fulfillment:</label><br /><br />
+                <textarea rows="4" cols="40" id="message"></textarea><br /><br />
+                <input type="submit" value="Submit" />
+            </fieldset><br />
+            
+        </form>
+        
+        <div class="container">
+            <h2 id="serv_title">Our Services</h2>
+            <div class="box">
+                    <h3>Fulfillment Logistics</h3>
+                    <p class="">DSP Warehouse is a leading specialist in order fulfillment services. 
+                        If you are looking for high quality and personal warehousing and 
+                        logistics services, you have come to the right place!</p>
+                <img src="images/B2B-Fulfillment.jpeg" alt="large picture"/>
+            </div>
+            
+            <div class="box">
+                    <h3 class = "right_photo">eCommerce Fulfillment</h3>
+                    <p class="right_photo">We offer a complete basket of services to meet the most demanding 
+                        third-party outsourcing needs. </p>
+                <img src="images/B2C-ecommerce.jpeg" alt="large picture"/>
+            </div>
+
+            <div class="box_bottom">
+                    <h3 id="others">Storage & Shipping</h3>
+                    <p>We act as an extended storage and distribution arm for companies 
+                        from different industries — with a particular focus in the apparel 
+                        industry. </p>
+                <img src="images/storage-and-shipping.jpeg" alt="large picture"/>
+            </div>
+
+            <div class="box_bottom">
+                    <h3 class="right_photo" id="others">Returns / Refurbishment</h3>
+                    <p class="right_photo">Designed for companies that need a cost-effective distribution solution, 
+                        DSP is a secure, organized and efficient storage and delivery point 
+                        for your merchandise.</p>
+                <img src="images/returns-and-refurbishment.png" alt="large picture"/>
+            </div>
+
+        </div>
+
+
+        <div id="map">
+            <!-- <div id="map_info"> -->
+                <!-- <p class="addy"> 95 MAYFIELD AVE <br> Edison, NJ 008837</p><br><br><br>
+                <p class="addy"><span class="contact">Telephone:</span> (718) 812 - 4745</p><br><br><br>
+                <p class="addy"><span class="contact">Email</span> <a href="mailto:DSP@example.com">DSP@warehouse.com</a></p> -->
+            <!-- /* </div> */ -->
+            <br><br><br>
+                <iframe width="425" height="375" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.7726548478986!2d-74.35536578434156!3d40.50241007935513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c9b3cde83a53%3A0xdc18475245242084!2s95%20Mayfield%20Ave%2C%20Edison%2C%20NJ%2008837!5e0!3m2!1sen!2sus!4v1665193979358!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- <p>&copy; DSP Warehouse, Inc.</p> -->
+        </div>
+    </body>
+
+
+
+</html>
